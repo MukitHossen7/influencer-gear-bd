@@ -120,7 +120,7 @@ border: none;
 .card-area{
     display: grid;
     grid-template-columns:repeat(3,1fr);
-  justify-content: center;
+   justify-content: center;
   gap: 30px;
   margin-bottom: 50px;
 }
@@ -215,4 +215,17 @@ text-align: left;
     .logo-area img{
         width: 60px;
     }
+    .card-area{
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    }
+    .card-item img{
+      width: 100%;
+    }
+     /* .card-item{
+         margin: 0px 12px; 
+         padding: 25px 39px;  
+    }
+     */
+ 
 }
