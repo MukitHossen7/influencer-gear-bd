@@ -12,17 +12,20 @@
 #cart2{
     font-size: 1.8rem;
 }
+#btn-arrow{
+     margin-left: 10px;
+}
 /* common CSS End */
 
 /* Header Section CSS start */
 .header-container{
-    border: 2px solid red;
     margin: 90px 120px;
-    height: 500px;
+    border: 2px solid red;
 }
 .nav-container{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 .nav-link li{
     list-style-type: none;
@@ -43,10 +46,101 @@ text-align: left;
 .nav-text h3{
     color: rgb(58, 58, 58);
 font-family: Poppins;
-font-size: 1.5rem;
+font-size: 1.6rem;
 font-weight: 700;
 line-height: 36px;
 text-align: left;
 }
-
 /* Header Section CSS End */
+
+/* Banner Container Start */
+.banner-container{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title{
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 3.2rem;
+font-weight: 700;
+line-height: 70px;
+text-align: left;
+margin-bottom: 16px;
+}
+.banner-description{
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+margin-bottom: 16px;
+}
+.banner-btn{
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+border-radius: 41px;
+background: rgb(224, 44, 109);
+padding: 10px 24px 10px 24px;
+border: none;
+}
+.banner-img{
+   max-width: 475px;
+}
+.banner-img img{
+    width: 100%;
+}
+/* Banner Container End */
+ /* Logo container CSS Start */
+.logo-container{
+    max-width: 986px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.logo-area{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 40px;
+    margin: 40px 62px;
+}
+
+ /* Logo container CSS End */
+
+
+
+/* Responsive CSS Medium devices */
+
+@media screen and (max-width:576px) {
+    .nav-container, .nav-link{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-text{
+        margin-top: 30px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .header-container{
+        margin: 0px auto;
+    }
+    .nav-manu{
+      margin-top: 35px;
+    }
+    .banner-title, .banner-description{
+        text-align: center;
+    }
+    .banner-btn{
+        display: block;
+        margin: 0 auto;
+    }
+
+}
