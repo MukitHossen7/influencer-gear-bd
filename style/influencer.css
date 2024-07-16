@@ -20,7 +20,6 @@
 /* Header Section CSS start */
 .header-container{
     margin: 90px 120px;
-    border: 2px solid red;
 }
 .nav-container{
     display: flex;
@@ -101,8 +100,8 @@ border: none;
  /* Logo container CSS Start */
 .logo-container{
     max-width: 986px;
-    border: 2px solid red;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 .logo-area{
     display: grid;
@@ -141,6 +140,14 @@ border: none;
     .banner-btn{
         display: block;
         margin: 0 auto;
+    }
+    .logo-area{
+        grid-template-columns: repeat(4 ,1fr);
+        gap: 20px;
+       margin: 40px 0px;
+       /* padding: 0 10px; */
+       justify-items: center;
+     
     }
 
 }
