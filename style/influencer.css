@@ -45,6 +45,9 @@ text-align: left;
 #baricons{
     display: none;
 }
+ .baricon-area{
+    display: none;
+}
 .nav-text h3{
     color: rgb(58, 58, 58);
 font-family: Poppins;
@@ -61,6 +64,10 @@ text-align: left;
     gap: 133px;
     justify-content: space-between;
     align-items: center;
+}
+.banner-text{
+    /* border: 2px solid red; */
+    max-width: 582px;
 }
 .banner-title{
     color: rgb(58, 58, 58);
@@ -94,6 +101,8 @@ border: none;
 }
 .banner-img{
    max-width: 440px;
+   margin-right: 40px;
+   /* border: 2px solid black; */
 }
 .banner-img img{
     width: 100%;
