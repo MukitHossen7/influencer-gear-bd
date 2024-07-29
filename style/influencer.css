@@ -66,7 +66,6 @@ text-align: left;
     align-items: center;
 }
 .banner-text{
-    /* border: 2px solid red; */
     max-width: 582px;
 }
 .banner-title{
@@ -102,7 +101,6 @@ border: none;
 .banner-img{
    max-width: 440px;
    margin-right: 40px;
-   /* border: 2px solid black; */
 }
 .banner-img img{
     width: 100%;
@@ -229,6 +227,7 @@ background: rgb(224, 44, 109);
 padding: 10px 24px;
 border: none;
 }
+
 
  /* featured-container CSS End */
 
