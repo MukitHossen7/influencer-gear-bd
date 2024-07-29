@@ -32,9 +32,9 @@
     .banner-title, .banner-description{
         text-align: center;
     }
-    /* .banner-text{
+    .banner-text{
         padding: 0 10px;
-    } */
+    }
     .banner-title{
         font-size: 2.3rem;
     }
@@ -50,7 +50,7 @@
         width: 100%;
         height: 100%;
     }
-    .banner-text{
+     .banner-text{
         width: 100%;
     }
     .logo-area{
@@ -71,11 +71,11 @@
     .card-item img{
       width: 100%;
     }
-     /* .card-item{
+     .card-item{
          margin: 0px 12px; 
          padding: 25px 39px;  
     }
-     */
+    
    .featured-container {
       
     flex-direction: column-reverse;
